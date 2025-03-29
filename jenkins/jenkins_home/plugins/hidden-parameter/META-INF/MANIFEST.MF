@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Hidden Parameter plugin
+Specification-Version: 0.0
+Implementation-Title: Hidden Parameter plugin
+Implementation-Version: 414.vfe0a_8b_052546
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: hidden-parameter
+Short-Name: hidden-parameter
+Long-Name: Hidden Parameter plugin
+Url: https://github.com/jenkinsci/hidden-parameter-plugin
+Plugin-Version: 414.vfe0a_8b_052546
+Hudson-Version: 2.479.3
+Jenkins-Version: 2.479.3
+Plugin-Developers: 
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/hidden-parame
+ ter-plugin.git
+Plugin-ScmTag: fe0a8b052546a3e37e71cb66c1296daeb84fafbf
+Plugin-ScmUrl: https://github.com/jenkinsci/hidden-parameter-plugin
+Implementation-Build: fe0a8b052546a3e37e71cb66c1296daeb84fafbf
+

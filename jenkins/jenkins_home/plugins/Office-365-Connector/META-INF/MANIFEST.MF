@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Office 365 Connector / Power Automate workflows
+Specification-Version: 5.1
+Implementation-Title: Office 365 Connector / Power Automate workflows
+Implementation-Version: 5.1.0
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: Office-365-Connector
+Short-Name: Office-365-Connector
+Long-Name: Office 365 Connector / Power Automate workflows
+Url: https://github.com/jenkinsci/office-365-connector-plugin
+Plugin-Version: 5.1.0
+Hudson-Version: 2.479.1
+Jenkins-Version: 2.479.1
+Plugin-Dependencies: gson-api:2.12.1-113.v347686d6729f,workflow-step-api
+ :686.v603d058a_e148,apache-httpcomponents-client-4-api:4.5.14-269.vfa_2
+ 321039a_83,display-url-api:2.209.v582ed814ff2f,scm-api:703.v72ff4b_2596
+ 00,token-macro:444.v52de7e9c573d
+Plugin-Developers: Damian Szczepanik:damianszczepanik:damianszczepanik@g
+ ithub,Out conn:outconn:outconn@microsoft.com,Srivardhan Hebbar:srhebbar
+ :srhebbar@microsoft.com
+Plugin-License-Name: The Apache Software License, Version 2.0
+Plugin-License-Url: http://www.apache.org/licenses/LICENSE-2.0.txt
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/office-365-co
+ nnector-plugin.git
+Plugin-ScmTag: Office-365-Connector-5.1.0
+Plugin-ScmUrl: https://github.com/jenkinsci/office-365-connector-plugin
+Implementation-Build: eff52a117b3b3d83d8e813373f8599dac4f1a1d9
+

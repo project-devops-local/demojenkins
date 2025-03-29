@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: AWS Credentials Plugin
+Specification-Version: 0.0
+Implementation-Title: AWS Credentials Plugin
+Implementation-Version: 245.v8a_1b_7c11a_94d
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: aws-credentials
+Short-Name: aws-credentials
+Long-Name: AWS Credentials Plugin
+Url: https://github.com/jenkinsci/aws-credentials-plugin
+Plugin-Version: 245.v8a_1b_7c11a_94d
+Hudson-Version: 2.479.1
+Jenkins-Version: 2.479.1
+Plugin-Dependencies: aws-java-sdk2-ec2:2.29.52-15.v9980e773794d,aws-java
+ -sdk-ec2:1.12.772-474.v7f79a_2046a_fb_,credentials-binding:687.v619cb_1
+ 5e923f,credentials:1405.vb_cda_74a_f8974,script-security:1369.v9b_98a_4
+ e95b_2d,structs:338.v848422169819,variant:60.v7290fc0eb_b_cd,pipeline-m
+ odel-extensions:2.2218.v56d0cda_37c72;resolution:=optional
+Plugin-Developers: 
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/aws-credentia
+ ls-plugin.git
+Plugin-ScmTag: 8a1b7c11a94d5312c55034ba1607807db3f904c1
+Plugin-ScmUrl: https://github.com/jenkinsci/aws-credentials-plugin
+Implementation-Build: 8a1b7c11a94d5312c55034ba1607807db3f904c1
+

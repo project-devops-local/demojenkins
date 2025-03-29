@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jenkins-ci.plugins</groupId>
+  <artifactId>Office-365-Connector</artifactId>
+  <version>5.1.0</version>
+  <packaging>hpi</packaging>
+  <name>Office 365 Connector / Power Automate workflows</name>
+  <description>This plugin sends Job notifications to JenkinsCI Office 365 Connector.</description>
+  <url>https://github.com/jenkinsci/office-365-connector-plugin</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>damianszczepanik</id>
+      <name>Damian Szczepanik</name>
+      <email>damianszczepanik@github</email>
+    </developer>
+    <developer>
+      <id>outconn</id>
+      <name>Out conn</name>
+      <email>outconn@microsoft.com</email>
+      <organization>Microsoft Corp.</organization>
+      <organizationUrl>http://microsoft.com</organizationUrl>
+    </developer>
+    <developer>
+      <id>srhebbar</id>
+      <name>Srivardhan Hebbar</name>
+      <email>srhebbar@microsoft.com</email>
+      <organization>Microsoft Corp.</organization>
+      <organizationUrl>http://microsoft.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/jenkinsci/office-365-connector-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/office-365-connector-plugin.git</developerConnection>
+    <tag>Office-365-Connector-5.1.0</tag>
+    <url>https://github.com/jenkinsci/office-365-connector-plugin</url>
+  </scm>
+  <ciManagement>
+    <system>Jenkins</system>
+    <url>https://ci.jenkins.io/job/Plugins/job/office-365-connector-plugin/job/master/</url>
+  </ciManagement>
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>gson-api</artifactId>
+      <version>2.12.1-113.v347686d6729f</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>token-macro</artifactId>
+      <version>444.v52de7e9c573d</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>display-url-api</artifactId>
+      <version>2.209.v582ed814ff2f</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>scm-api</artifactId>
+      <version>703.v72ff4b_259600</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins.workflow</groupId>
+      <artifactId>workflow-step-api</artifactId>
+      <version>686.v603d058a_e148</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>apache-httpcomponents-client-4-api</artifactId>
+      <version>4.5.14-269.vfa_2321039a_83</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-validator</groupId>
+      <artifactId>commons-validator</artifactId>
+      <version>1.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>findbugs-annotations</artifactId>
+      <version>3.0.1</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jenkins-ci.tools</groupId>
+        <artifactId>maven-hpi-plugin</artifactId>
+        <version>3.61</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

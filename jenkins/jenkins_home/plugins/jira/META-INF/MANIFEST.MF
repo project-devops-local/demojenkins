@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 21
+Specification-Title: Jenkins Jira plugin
+Specification-Version: 3.14
+Implementation-Title: Jenkins Jira plugin
+Implementation-Version: 3.14
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: jira
+Short-Name: jira
+Long-Name: Jenkins Jira plugin
+Url: https://github.com/jenkinsci/jira-plugin
+Plugin-Version: 3.14
+Hudson-Version: 2.479.3
+Jenkins-Version: 2.479.3
+Plugin-Dependencies: caffeine-api:3.2.0-161.v691ef352cee1,commons-lang3-
+ api:3.17.0-84.vb_b_938040b_078,jersey2-api:2.45-154.v4ded3dc34f81,joda-
+ time-api:2.13.1-115.va_6b_5f8efb_1d8,json-api:20250107-125.v28b_a_ffa_e
+ b_f01,workflow-job:1505.vea_4b_20a_4a_495,workflow-step-api:686.v603d05
+ 8a_e148;resolution:=optional,apache-httpcomponents-client-4-api:4.5.14-
+ 269.vfa_2321039a_83,branch-api:2.1214.v3f652804588d,credentials:1408.va
+ _622a_b_f5b_1b_1,jackson2-api:2.17.0-389.va_5c7e45cd806,mailer:489.vd4b
+ _25144138f,matrix-project:845.vffd7fa_f27555,p4:1.17.0;resolution:=opti
+ onal
+Plugin-Developers: Olivier Lamy:olamy:,Radek Antoniuk:warden:
+Plugin-License-Name: The MIT license
+Plugin-License-Url: https://github.com/jenkinsci/jira-plugin/raw/master/
+ LICENSE.md
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/jira-plugin.g
+ it
+Plugin-ScmTag: jira-3.14
+Plugin-ScmUrl: https://github.com/jenkinsci/jira-plugin
+Implementation-Build: e5d55ff4d67afae6d0771c12eeb31539a185dfb8
+
